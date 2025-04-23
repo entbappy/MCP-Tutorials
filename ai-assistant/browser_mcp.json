@@ -1,0 +1,24 @@
+{
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      },
+      "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb"
+      ]
+    },
+    "duckduckgo-search": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "duckduckgo-mcp-server"
+        ]
+    }
+    }
+  }
